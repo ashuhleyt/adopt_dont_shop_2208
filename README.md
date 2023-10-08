@@ -1,6 +1,18 @@
-# Adopt, don't Shop
+# 🐶 Adopt, Don't Shop 🐶 
 
-### Existing database design
+:paw_prints: [Database Schema](#database-schema)
+<br> 
+:paw_prints: [Learning Goals](#learning-goals)
+<br>
+:paw_prints: [Tech Stack](#tech-stack)
+<br>
+:paw_prints: [Configuration](#configuration)
+<br>
+:paw_prints: [User Stories](#user-stories)
+<br>
+:paw_prints: [Rubric](#rubric)
+
+### Database Schema
 ![visual-schema.png](https://i.postimg.cc/0ywZgQ1W/visual-schema.png)
 
 ## Learning Goals
@@ -17,28 +29,20 @@ In this project, students will build upon the code in this repo to create a Pet 
 * Track user stories using GitHub Projects
 * Deploy an application to Heroku
 
-## Check In
+## Tech Stack
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Ruby' src='https://img.shields.io/badge/Ruby_2.7.4-100000?style=for-the-badge&logo=Ruby&logoColor=FFFFFF&labelColor=A00808&color=000000'/></a>
+<br>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/Heroku-100000?style=for-the-badge&logo=Heroku&logoColor=FFFFFF&labelColor=4814A8&color=4814A8'/></a>
+<br>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Ruby On Rails' src='https://img.shields.io/badge/Rails_5.2.6-100000?style=for-the-badge&logo=Ruby On Rails&logoColor=FFFFFF&labelColor=990202&color=000000'/></a>
 
-During your Check In, you should be prepared to review your database schema for the many to many relationship, your deployment to Heroku, and your GitHub Projects board.
+## Configuration
+Clone this repository down to your local machine and run the following commands: 
+`bundle install`<br>
+`bundle update`<br>
+`rails db:create` <br>
+`rails db:migrate` <br>
 
-## Rubric
-
-| | **Feature Completeness** | **Rails** | **ActiveRecord** | **Testing and Debugging** | **Project Management** |
-| --- | --- | --- | --- | --- | --- |
-| **4: Exceptional**  | All User Stories 100% complete including all sad paths and edge cases, and some extension work completed | Students implement strategies not discussed in class and can defend their design decisions | At least one ActiveRecord extension is complete | 100% coverage for features and models. A gem that enhances testing effectiveness is implemented (orderly, factorybot, faker, etc). Students can point to multiple examples of edge case testing that are not included in the user stories | GitHub Project board is fully up to date in all checkins and the evaluation. Students create custom cards on the project board to track tasks in addition to user stories.
-| **3: Passing** | All stories in the "Deploy", "Apply for Pet(s)", "Database Logic Part 1", and "Approving Applications" sections are completed | Students use the principles of MVC to effectively organize code with only 1 - 2 infractions. Action View helpers are used to create forms, links, and buttons. Routes and Actions mostly follow RESTful conventions, and student can defend any non restful routes. At least one partial is created and included in at least two different views. Models include validations. Flash messages are used. | ActiveRecord helpers are utilized whenever possible. ActiveRecord is used in a clear and effective way to read/write data. No Ruby is used to process data. All queries functional and accurately implemented. | 100% coverage for models. 98% coverage for features. Tests are well written and meaningful. Tests utilize within blocks to target specific areas of a page | Student uses GitHub Project to track all user stories. Project board is mostly up to date in all checkins. Project board is fully up to date at the evaluation |
-| **2: Below Expectations** | All stories in the "Deploy", "Apply for Pet(s)", and "Database Logic Part 1" sections are completed |  Students use the principles of MVC to effectively organize code, but may have more than 2 infractions. Some routes and actions are not restful, and student cannot defend those decisions. Project may fail to include one of the following: a partial that is included in at least two different views, model validations, or use of flash messages. | Ruby is used to process data that could use ActiveRecord instead. Some instances where ActiveRecord helpers are not utilized. Some queries not accurately implemented. | Feature test coverage between 90% and 98%, or model test coverage below 100%, or tests are not meaningfully written or have an unclear objective, or tests do not utilize within blocks | GitHub Project board is not utilized during one of the checkins. Project board is not fully up to date during evaluation.
-| **1: Failing** | Students fail to complete "Database Logic Part 1" section | Project fails to include two out of the following: a partial that is included in at least two different views, model validations, or use of flash messages | Ruby is used to process data more often than ActiveRecord. Many cases where ActiveRecord helpers are not utilized. | Below 90% coverage for either features or models. | GitHub projects is not utilized
-
-## Evaluation
-
-Before your evaluation, choose 2 user stories to present. Try to pick user stories that you think will deliever the highest value in terms of feedback from the instructor. 
-
-During the evaluation, you will present your user story:
-
-* Demonstrate the user story on Heroku (or localhost if the feature is not functional in Production)
-* Show the test(s) for the user story
-* Show all code that implements the user story
 
 # User Stories
 
@@ -442,6 +446,15 @@ _Note: It is recommended that these extensions only be attempted after ALL user 
 
 1. Refactor your code to make use of [ActiveRecord callbacks](https://guides.rubyonrails.org/active_record_callbacks.html)
 1. Refactor your code to make use of [ActiveRecord Scopes](https://guides.rubyonrails.org/active_record_querying.html#scopes)
+
+2. ## Rubric
+
+| | **Feature Completeness** | **Rails** | **ActiveRecord** | **Testing and Debugging** | **Project Management** |
+| --- | --- | --- | --- | --- | --- |
+| **4: Exceptional**  | All User Stories 100% complete including all sad paths and edge cases, and some extension work completed | Students implement strategies not discussed in class and can defend their design decisions | At least one ActiveRecord extension is complete | 100% coverage for features and models. A gem that enhances testing effectiveness is implemented (orderly, factorybot, faker, etc). Students can point to multiple examples of edge case testing that are not included in the user stories | GitHub Project board is fully up to date in all checkins and the evaluation. Students create custom cards on the project board to track tasks in addition to user stories.
+| **3: Passing** | All stories in the "Deploy", "Apply for Pet(s)", "Database Logic Part 1", and "Approving Applications" sections are completed | Students use the principles of MVC to effectively organize code with only 1 - 2 infractions. Action View helpers are used to create forms, links, and buttons. Routes and Actions mostly follow RESTful conventions, and student can defend any non restful routes. At least one partial is created and included in at least two different views. Models include validations. Flash messages are used. | ActiveRecord helpers are utilized whenever possible. ActiveRecord is used in a clear and effective way to read/write data. No Ruby is used to process data. All queries functional and accurately implemented. | 100% coverage for models. 98% coverage for features. Tests are well written and meaningful. Tests utilize within blocks to target specific areas of a page | Student uses GitHub Project to track all user stories. Project board is mostly up to date in all checkins. Project board is fully up to date at the evaluation |
+| **2: Below Expectations** | All stories in the "Deploy", "Apply for Pet(s)", and "Database Logic Part 1" sections are completed |  Students use the principles of MVC to effectively organize code, but may have more than 2 infractions. Some routes and actions are not restful, and student cannot defend those decisions. Project may fail to include one of the following: a partial that is included in at least two different views, model validations, or use of flash messages. | Ruby is used to process data that could use ActiveRecord instead. Some instances where ActiveRecord helpers are not utilized. Some queries not accurately implemented. | Feature test coverage between 90% and 98%, or model test coverage below 100%, or tests are not meaningfully written or have an unclear objective, or tests do not utilize within blocks | GitHub Project board is not utilized during one of the checkins. Project board is not fully up to date during evaluation.
+| **1: Failing** | Students fail to complete "Database Logic Part 1" section | Project fails to include two out of the following: a partial that is included in at least two different views, model validations, or use of flash messages | Ruby is used to process data more often than ActiveRecord. Many cases where ActiveRecord helpers are not utilized. | Below 90% coverage for either features or models. | GitHub projects is not utilized
 
 ### Styling
 
