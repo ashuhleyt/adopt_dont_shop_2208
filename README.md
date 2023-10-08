@@ -1,8 +1,8 @@
 # 🐶 Adopt, Don't Shop 🐶 
 
-:paw_prints: [Database Schema](#database-schema)
-<br> 
 :paw_prints: [Learning Goals](#learning-goals)
+<br>
+:paw_prints: [Database Schema](#database-schema)
 <br>
 :paw_prints: [Tech Stack](#tech-stack)
 <br>
@@ -11,9 +11,6 @@
 :paw_prints: [User Stories](#user-stories)
 <br>
 :paw_prints: [Rubric](#rubric)
-
-### Database Schema
-![visual-schema.png](https://i.postimg.cc/0ywZgQ1W/visual-schema.png)
 
 ## Learning Goals
 
@@ -29,6 +26,9 @@ In this project, students will build upon the code in this repo to create a Pet 
 * Track user stories using GitHub Projects
 * Deploy an application to Heroku
 
+### Database Schema
+![visual-schema.png](https://i.postimg.cc/0ywZgQ1W/visual-schema.png)
+
 ## Tech Stack
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Ruby' src='https://img.shields.io/badge/Ruby_2.7.4-100000?style=for-the-badge&logo=Ruby&logoColor=FFFFFF&labelColor=A00808&color=A00808'/></a>
 <br>
@@ -39,7 +39,7 @@ In this project, students will build upon the code in this repo to create a Pet 
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='POSTgresql' src='https://img.shields.io/badge/POSTgresql-100000?style=for-the-badge&logo=POSTgresql&logoColor=FFFFFF&labelColor=4F72D0&color=4F72D0'/></a>
 
 ## Configuration
-Clone this repository down to your local machine and run the following commands: 
+Clone this repository down to your local machine and run the following commands: <br>
 `bundle install`<br>
 `bundle update`<br>
 `rails db:create` <br>
