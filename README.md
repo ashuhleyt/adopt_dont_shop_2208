@@ -30,11 +30,13 @@ In this project, students will build upon the code in this repo to create a Pet 
 * Deploy an application to Heroku
 
 ## Tech Stack
-<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Ruby' src='https://img.shields.io/badge/Ruby_2.7.4-100000?style=for-the-badge&logo=Ruby&logoColor=FFFFFF&labelColor=A00808&color=000000'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Ruby' src='https://img.shields.io/badge/Ruby_2.7.4-100000?style=for-the-badge&logo=Ruby&logoColor=FFFFFF&labelColor=A00808&color=A00808'/></a>
 <br>
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/Heroku-100000?style=for-the-badge&logo=Heroku&logoColor=FFFFFF&labelColor=4814A8&color=4814A8'/></a>
 <br>
-<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Ruby On Rails' src='https://img.shields.io/badge/Rails_5.2.6-100000?style=for-the-badge&logo=Ruby On Rails&logoColor=FFFFFF&labelColor=990202&color=000000'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Ruby On Rails' src='https://img.shields.io/badge/Rails_5.2.6-100000?style=for-the-badge&logo=Ruby On Rails&logoColor=FFFFFF&labelColor=990202&color=990202'/></a>
+<br>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='POSTgresql' src='https://img.shields.io/badge/POSTgresql-100000?style=for-the-badge&logo=POSTgresql&logoColor=FFFFFF&labelColor=4F72D0&color=4F72D0'/></a>
 
 ## Configuration
 Clone this repository down to your local machine and run the following commands: 
